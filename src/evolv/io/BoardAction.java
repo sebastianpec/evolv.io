@@ -16,13 +16,13 @@ public interface BoardAction {
 		}
 	}
 
-	public class ChangeCreatureMinimum implements BoardAction {
+	public class ChangeSpawnChance implements BoardAction {
 		@Override
 		public void doAction(Board board, boolean isOnLeft) {
 			if (isOnLeft) {
-				board.decreaseCreatureMinimum();
+				board.decreaseSpawnChance();
 			} else {
-				board.increaseCreatureMinimum();
+				board.increaseSpawnChance();
 			}
 		}
 	}
