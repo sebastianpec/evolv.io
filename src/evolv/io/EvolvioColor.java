@@ -120,15 +120,15 @@ public class EvolvioColor extends PApplet {
 	}
 
 	@Override
-   protected void handleMouseEvent(MouseEvent mouseEvent) {
-	   super.handleMouseEvent(mouseEvent);
-	   peripherals.handleMouseEvent(mouseEvent);
+	protected void handleMouseEvent(MouseEvent mouseEvent) {
+		super.handleMouseEvent(mouseEvent);
+		peripherals.handleMouseEvent(mouseEvent);
 	}
 
 	@Override
-   protected void handleKeyEvent(KeyEvent keyEvent) {
-	   super.handleKeyEvent(keyEvent);
-	   peripherals.handleKeyEvent(keyEvent);
+	protected void handleKeyEvent(KeyEvent keyEvent) {
+		super.handleKeyEvent(keyEvent);
+		peripherals.handleKeyEvent(keyEvent);
 	}
 
 	private void zoom(MouseEvent event) {
