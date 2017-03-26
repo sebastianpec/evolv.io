@@ -66,9 +66,9 @@ public class EvolvioColor extends PApplet {
 		textFont(font);
 		this.evoBoard = new Board(this, seed);
 		resetZoom();
-	   peripherals.onMouse(MouseButton.NONE, MouseAction.WHEEL, this::zoom);
-	   peripherals.onMouse(MouseButton.LEFT, MouseAction.PRESS, this::mouseDown);
-	   peripherals.onMouse(MouseButton.LEFT, MouseAction.RELEASE, this::mouseUp);
+		peripherals.onMouse(MouseButton.NONE, MouseAction.WHEEL, this::zoom);
+		peripherals.onMouse(MouseButton.LEFT, MouseAction.PRESS, this::mouseDown);
+		peripherals.onMouse(MouseButton.LEFT, MouseAction.RELEASE, this::mouseUp);
 	}
 
 	@Override
